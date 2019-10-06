@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
 // import { Container } from './styles';
 
-export default function Entrar() {
+export default function SignIn() {
   return (
     <div />
   );
