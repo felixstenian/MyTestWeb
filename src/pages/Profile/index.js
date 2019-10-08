@@ -21,7 +21,6 @@ export default function Profile() {
     <div>
       <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="mytest"/>
       <ul>
-        
         <li><small>Nome: </small>{profile.name}</li>
         <li><small>Usuário: </small>{profile.user_name}</li>
         <li><small>Email: </small>{profile.email}</li>

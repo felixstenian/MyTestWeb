@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { Form, Input } from "@rocketseat/unform";
+import { Link } from "react-router-dom";
 
 import { updateProfileRequest } from "../../store/modules/user/actions";
 
@@ -15,7 +16,7 @@ export default function EditProfile() {
   function handleSubmit(data) {
     dispatch(updateProfileRequest(data));
   }
-
+  
   return (
     <Container>
       <Form initialData={profile} onSubmit={handleSubmit}>
@@ -34,7 +35,7 @@ export default function EditProfile() {
         <button type="submit">Atualizar perfil</button>
         
       </Form>
-      <button type="submit">Cancelar</button>
+      <Link to="/entrar"><button type="submit">Cancelar Edição</button></Link>
     </Container>
   )
 }

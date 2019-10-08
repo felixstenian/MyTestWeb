@@ -4,6 +4,8 @@ import React from 'react';
 
 export default function Confirm() {
   return (
-    <h1>Confirmar Cadastro</h1>
+    <h1>Confirmar Cadastro</h1>,
+
+    <p>Acesse a caixa de entrada do seu email e abra o email de confirmação com o assunto "Confirmar Cadastro"</p>
   );
 }

@@ -5,6 +5,7 @@ import React from 'react';
 export default function Active() {
   
   return (
-    <h1>Ativação</h1>
+    <h1>Ativação</h1>,
+    <p>Conta Ativada</p>
   );
 }
