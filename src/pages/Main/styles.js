@@ -1,23 +1,26 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import { darken } from "polished";
 
-export const Button = styled.button`
-  background: #3333;
-  border: 0;
-  padding: 0 15px;
-  margin: 10px 0 10px 0;
-  border-radius: 5px;
-  width: 100px;
-  height: 30px;
-  color: #333;
-  
-
+export const Content = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;  
+  
 
-  &:hover {
-    background: rgb(50, 127, 290);
+  button {
+    width: 100%;
+    margin: 5px 0 0;
+    height: 44px;
+    background: #40E0D0;
     color: #fff;
-  }
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.2s;
 
+    &:hover {
+      background: ${darken(0.09, "#40E0D0")}
+    }
+  }
 `;
+
