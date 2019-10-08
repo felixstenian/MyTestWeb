@@ -23,7 +23,7 @@ export default function Header() {
               <strong>{profile.user_name}</strong>
               <Link to="/editarperfil">Editar Perfil</Link>
             </div>
-            <img src={profile.avatar.url && "https://api.adorable.io/avatars/50/abott@adorable.png"} alt="mytest" />
+            <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="mytest" />
           </Profile>
         </aside>
       </Content>
