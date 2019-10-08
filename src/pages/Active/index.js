@@ -3,7 +3,8 @@ import React from 'react';
 // import { Container } from './styles';
 
 export default function Active() {
+  
   return (
-    <div />
+    <h1>Ativação</h1>
   );
 }
