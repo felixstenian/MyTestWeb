@@ -1,18 +1,17 @@
-import React, { Component } from "react";
-import { FaSpinner } from "react-icons";
+import React from 'react';
+import { Link } from "react-router-dom";
 
-import Container from '../../components/Container';
+import logo from "../../assets/logoTemp.png";
 
-import { Button } from "./styles";
+import { Content } from './styles';
 
-export default class Main extends Component {
-  render() {
-    return (
-      <Container>
-        <h1>MyTest</h1>
-        <Button>Login</Button>
-        <Button>Cadatro de usuário</Button>
-      </Container>
-    )
-  }
+export default function Main() {
+  return (
+    <Content>
+      <img src={logo} alt="mytest"/>
+      <Link to="/entrar"><button type="submit">Login</button></Link>
+      <Link to="/criarconta"><button type="submit">Criar conta</button></Link>
+    </Content>
+    
+  );
 }
