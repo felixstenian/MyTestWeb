@@ -29,5 +29,9 @@ export const Container = styled.div`
   h1, p {
     color: rgba(255,255,255, 0.8);
   }
+
+  p {
+    font-size: 18px;
+  }
   
 `;
