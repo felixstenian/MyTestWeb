@@ -20,10 +20,9 @@ export const Container = styled.div`
 
     img {
       margin-right:20px;
-      height: 120px;
-      width: 120px;
-      border-radius: 50%;
-      border: 1px solid rgba(255,255,255, 0.3);
+      width: 30%;
+      border-radius: 5%;
+      border: 2px solid rgba(255,255,255, 0.1);
       background: #eee;
     }
 
