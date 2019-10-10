@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from "react-redux";
 
-
 import { signOut } from "../../store/modules/auth/actions";
 
 import { Container } from './styles';
@@ -11,6 +10,7 @@ export default function Profile() {
   const dispatch = useDispatch();
 
   const profile = useSelector(state => state.user.profile);
+  
  
   function handleSignOut() {
     dispatch(signOut());
@@ -19,7 +19,7 @@ export default function Profile() {
   return (
     <Container>
     <div>
-      <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="mytest"/>
+      <img src={profile.avatar.url} alt={profile.user_name}/>
       <ul>
         <li><small>Nome: </small>{profile.name}</li>
         <li><small>Usuário: </small>{profile.user_name}</li>
