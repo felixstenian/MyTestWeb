@@ -35,13 +35,14 @@ export function* signIn({ payload }) {
 
 export function* signUp({ payload }) {
   try {
-    const { name, user_name, email, password } = payload;
+    const { name, user_name, email, password, avatar_id } = payload;
 
     yield call(api.post, "users", {
       name,
       user_name,
       email,
-      password
+      password,
+      avatar_id
     });
 
     history.push("/confirmar")
