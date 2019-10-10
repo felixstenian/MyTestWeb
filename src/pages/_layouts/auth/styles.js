@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from "polished";
 
 export const Wrapper = styled.div`
-  height: 125%;
+  height: 100%;
   background: linear-gradient(-90deg, rgb(50, 127, 290), #00BFFF);
   display: flex;
   justify-content: center;
@@ -68,10 +68,10 @@ export const Content = styled.div`
   }
 
   img {
-    width: 40%;
+    width: 50%;
     border-radius: 30%;
     align-self: center;
-    border: 3px solid rgba(255,255,255, 0.3);
+    border: 1px solid rgba(255,255,255, 0.3);
     margin-bottom: 30px;
   }
 
