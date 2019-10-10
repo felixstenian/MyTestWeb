@@ -24,7 +24,7 @@ export default function Routes() {
         <Route path="/criarconta" component={SignUp}/>
         <Route path="/entrar" component={SignIn}/>
 
-        <Route path="/ativacao" component={Active}/>
+        <Route path="/ativacao/:id" component={Active} />
         <Route path="/confirmar" component={Confirm}/>
       </Switch>
   )
