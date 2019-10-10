@@ -22,5 +22,13 @@ export const Content = styled.div`
       background: ${darken(0.09, "#40E0D0")}
     }
   }
+
+  img {
+    width: 50%;
+    border-radius: 30%;
+    align-self: center;
+    border: 1px solid rgba(255,255,255, 0.3);
+    margin-bottom: 30px;
+  }
 `;
 
