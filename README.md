@@ -16,7 +16,7 @@
 
 ## :iphone: Mobile preview
 
-- You can see the mobile app preview printscreens ![here]("https://github.com/steniafelix/MyTestMobile/blob/master/README.md").
+- You can see the mobile app preview printscreens [here](https://github.com/steniafelix/MyTestMobile/blob/master/README.md).
 
 ## :key: Authentication
 
