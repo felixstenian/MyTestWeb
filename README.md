@@ -45,13 +45,9 @@
 # :fire: Used technologies
 
 - ReactJS
-- React Native
-- NodeJS
-- Node Mailer
 - Styled Components
 - Reactotron
 - Redux
 - Redux Saga
-- MySql
-- Docker
-- Other React and Node libs.
+- Reduce
+- Other React libs.
