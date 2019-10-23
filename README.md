@@ -34,11 +34,11 @@
 # :wrench: Running the project
 
 - Yout need to set up all the react-native enviroment.
-- Install docker and create a mysql container.
+- Install docker.
 - Clone this repository.
 - Install all dependencies using the command `yarn` in each directory, backend, mobile and frontend.
 - Enter backend repository and fill the `.env` file.
-- Enter backend directory and run `yarn run-dev`.
+- Enter backend directory and run `yarn dev` and `yarn docker`.
 - Enter frontend directory and run `yarn start`.
 - Enter mobile directory and run `react-native run-ios`.
 
